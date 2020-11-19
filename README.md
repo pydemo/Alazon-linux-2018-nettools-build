@@ -2,6 +2,11 @@
 
 build: http://www.linuxfromscratch.org/blfs/view/svn/basicnet/net-tools.html
 
+## SSH port
+```
+ sudo netstat -tnlp | grep :22
+```
+
 Package Information
 Download (HTTP): http://anduin.linuxfromscratch.org/BLFS/net-tools/net-tools-CVS_20101030.tar.gz
 
